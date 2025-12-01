@@ -9,12 +9,13 @@
     <header>
         <h1>Bienvenidos a mi pagina web</h1>
         <p>Mi primera página hecha con html</p>
-        <a href="#">Datos sobre mi</a>  
-        <a href="#">Fotografias</a>
-        <a href="#">Pasatiempos</a>
-        <a href="#">Redes sociales</a>
+        <a href="#sobre-mi">Datos sobre mi</a>  
+        <a href="#fotografias">Fotografias</a>
+        <a href="#redes-sociales">Redes sociales</a>
+        <a href="#vision">Metas</a>
+        <a href="#formulario">Contactame</a>
     </header>
-    <main>
+        <main id="sobre-mi" class="">
         <section>
             <h2>Sobre mi</h2>
             <p>Hola, soy un estudiante de Mecatrónica que está aprendiendo desarrollo web</p>
@@ -29,7 +30,7 @@
         </section>
     </main>
 
-    <main>
+    <main id="fotografias" class="">
         <section>
             <h2>Fotos tomadas por mi</h2>
             <p>Este soy yo</p>
@@ -41,7 +42,7 @@
         </section>
     </main>
 
-    <main>
+    <main id="redes-sociales" class="">
         <section>
             <h2>Mis redes sociales</h2>
             <p>Puedes seguirme en cualquiera de mis redes o visitar mi GitHub</p>
@@ -53,8 +54,14 @@
             </ol>
         </section>
     </main>
-    <main>
+    <main id="formulario" class=""></main>
+    <div id="vision">
+        <h2>Como veo mi futuro</h2>
+        <p>Me gustaria trabajar como desarrollador, aunque estudio una carrera distinta me gustaria aprender y en un futuro serlo.</p>
+        <p>Aunque me gustaria crear sistemas automatizados con una ayuda de este curso.</p>
+        <p>Ponerlo en funcionamiento gracias a este curso.<span>❤️</span></p>
 
+    </div>
         <section>
         <h2>Formulario para contactarme</h2>
         <form action="#" method="post">
@@ -66,11 +73,9 @@
         <label for="mensaje">Mensaje</label><br>
         <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br>
         <input type="submit" value="Enviar">
-        
         </form>
 
         </section>
-    </main>
         <footer>
         <p>© 2025 | Todos los derechos reservados a VMMF</p>
     </footer>
